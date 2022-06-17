@@ -22,6 +22,23 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <style type="text/css">
+        .iframe-container {
+        overflow: hidden;
+        /* 16:9 aspect ratio */
+        padding-top: 119.25%;
+        position: relative;
+        }
+        .iframe-container iframe {
+        border: 0;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        }
+    </style>
 </head>
 
 <body>
@@ -88,17 +105,16 @@
     <!-- Breadcrumb End -->
 
     <!-- Map Begin -->
-    <div class="map">
+    <!-- <div class="map">
         <div class="container">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2942.5524090066037!2d-71.10245469994108!3d42.47980730490846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3748250c43a43%3A0xe1b9879a5e9b6657!2sWinter%20Street%20Public%20Parking%20Lot!5e0!3m2!1sen!2sbd!4v1577299251173!5m2!1sen!2sbd"
-                height="585" style="border:0;" allowfullscreen=""></iframe>
+            <h2 style='font-family: "Rajdhani", sans-serif; font-weight: 700;'>GET IN TOUCH WITH US!</h2>
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&showTitle=0&showPrint=0&showTabs=1&showCalendars=1&src=bWFyaWFiZWx0cmFuMDcyQGdtYWlsLmNvbQ&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%230B8043" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
         </div>
-    </div>
+    </div> -->
     <!-- Map End -->
 
     <!-- Contact Section Begin -->
-    <section class="contact spad">
+    <section class="contact spad" style="background-color: #E9EDFE;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
@@ -135,7 +151,10 @@
                         </div>
                         <p>Eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
                             gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                        <form action="#">
+                            <div class="iframe-container">
+                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe03fPmc7MITYxNOi6Cq4qF1RyMe3JHtBi1eoc4MFP5eEzu_A/viewform?embedded=true" width="640" height="1250" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                            </div>
+                            <!-- <form action="#">
                             <div class="input__list">
                                 <input type="text" placeholder="Name">
                                 <input type="text" placeholder="Email">
@@ -143,12 +162,18 @@
                             </div>
                             <textarea placeholder="Comment"></textarea>
                             <button type="submit" class="site-btn">SEND MESSAGE</button>
-                        </form>
+                        </form> -->
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <div class="map">
+        <div class="container">
+            <h2 style='font-family: "Rajdhani", sans-serif; font-weight: 700;'>GET IN TOUCH WITH US!</h2>
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&showTitle=0&showPrint=0&showTabs=1&showCalendars=1&src=bWFyaWFiZWx0cmFuMDcyQGdtYWlsLmNvbQ&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%230B8043" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </div>
+    </div>
     <!-- Contact Section End -->
 
     <!-- Footer Section Begin -->
