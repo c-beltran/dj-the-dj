@@ -177,7 +177,7 @@ ol {
 
 .primary-btn.border-btn {
 	background: transparent;
-	border: 2px solid #5c00ce;
+	border: 2px solid #EC2227;
 	color: #111111;
 }
 
@@ -1042,7 +1042,7 @@ ol {
 
 .footer__address ul li i {
 	font-size: 18px;
-	color: #5c00ce;
+	color: #000099;
 	height: 50px;
 	width: 50px;
 	background: #ffffff;
@@ -1100,7 +1100,7 @@ ol {
 
 .footer__social .footer__social__links a {
 	font-size: 18px;
-	color: #5c00ce;
+	color: #000099;
 	height: 50px;
 	width: 50px;
 	background: #ffffff;
@@ -1708,7 +1708,7 @@ ol {
 	top: -50px;
 	width: calc(100% - 50px);
 	height: 100%;
-	border: 20px solid rgba(9, 53, 247, 0.1);
+	border: 20px solid rgba(247, 61, 9, 0.1);
 	content: "";
 	z-index: -1;
 }
@@ -2556,7 +2556,7 @@ ol {
 	border-radius: 50%;
 	line-height: 70px;
 	text-align: center;
-	color: #5c00ce;
+	color: #000099;
 	position: absolute;
 	left: 0;
 	top: -4px;
@@ -2805,7 +2805,7 @@ ol {
 		border-radius: 0;
 		padding: 12px 15px;
 		float: none;
-		background: #5c00ce;
+		background: #000099;
 	}
 	.slicknav_nav {
 		position: absolute;
@@ -2928,3 +2928,73 @@ ol {
 		background-position: top 0 left 19%;
 	}
 }
+
+/* FOOTER */
+
+.waves {
+	position: relative;
+	width: 100%;
+	height: 15vh;
+	margin-bottom: -7px;
+	/*Fix for safari gap*/
+	min-height: 100px;
+	max-height: 400px;
+  }
+  /* Animation */
+  .parallax>use {
+	animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+  }
+  .parallax>use:nth-child(1) {
+	animation-delay: -2s;
+	animation-duration: 7s;
+  }
+  .parallax>use:nth-child(2) {
+	animation-delay: -3s;
+	animation-duration: 10s;
+  }
+  .parallax>use:nth-child(3) {
+	animation-delay: -4s;
+	animation-duration: 13s;
+  }
+  .parallax>use:nth-child(4) {
+	animation-delay: -5s;
+	animation-duration: 20s;
+  }
+  @keyframes move-forever {
+	0% {
+	  transform: translate3d(-90px, 0, 0);
+	}
+	100% {
+	  transform: translate3d(85px, 0, 0);
+	}
+  }
+  /*Shrinking for mobile*/
+  @media (max-width: 768px) {
+	.waves {
+	  height: 40px;
+	  min-height: 40px;
+	}
+	.content {
+	  height: 30vh;
+	}
+  }
+  
+  /*Other*/
+  
+  .unique-color-dark {
+	background-color: #000099 !important;
+  }
+  
+  .bg-light {
+	background-color: #000099 !important;
+  }
+  
+  .navbar-brand {
+	color: white;
+  }
+  
+  .custom-color {
+	background-color: #000099 !important
+  }
+
+  /* END OF FOOTER */
